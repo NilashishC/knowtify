@@ -17,8 +17,8 @@ if __name__ == '__main__':
     # Create a new object of type knowtify for each entry
     # Call notifier() on each object
 
-    obj = knowtify.Knowtify('imap.gmail.com', 'nilashishc.social@gmail.com',
-                            '8017535758', 'Badsha*2018fm', 'Inbox')
+    obj = knowtify.Knowtify('imap.gmail.com', '<enter email>',
+                            '<enter number>', '<enter pwd>', 'Inbox')
     print("Starting Service....")
     while True:
         obj.notifier()
