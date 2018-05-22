@@ -109,6 +109,6 @@ class Knowtify:
             print("No further action was taken because email or Mobile \
                   validation failed")
 
-    def __sendSMS(self, from, subject, data):
+    def __sendSMS(self, frm, subject, data):
         # Send an SMS to the corresponding number
         pass
