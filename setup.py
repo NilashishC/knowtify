@@ -79,7 +79,7 @@ def add_entry():
     mailbox = input('\nEnter MailBox: ')
     mobile = input('\nEnter Mobile Number: ')
 
-    if isfile('data.json'):
+    if not isfile('data.json'):
         print('No input data.json found...')
         create_input_file()
 
